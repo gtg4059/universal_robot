@@ -44,4 +44,6 @@
       safety_k_position="${safety_k_position}"
     />
   </xacro:macro>
+<xacro:include filename="$(find ur_description)/urdf/inc/ur3e_macro.xacro"/>
+  <xacro:ur3e_robot prefix="" />
 </robot>

@@ -12,7 +12,7 @@
    <!-- legal values:
          - hardware_interface/PositionJointInterface
          - hardware_interface/VelocityJointInterface
-         - hardware_interface/EffortJointInterface
+         - hardware_interface/Interface
    -->
    <xacro:arg name="transmission_hw_interface" default="hardware_interface/PositionJointInterface"/>
    <xacro:arg name="safety_limits" default="false"/>
